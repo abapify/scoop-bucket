@@ -1,16 +1,16 @@
 {
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Standalone SAP ADT MCP orchestrator (compiled Bun binary)",
   "homepage": "https://github.com/abapify/openadt",
   "license": "Apache-2.0",
   "notes": "Requires SAP ADT for VS Code (adt-lsc). JDK 21 needed only for adt-lsc's bundled JRE/SNC; openadt-mcp itself has no Java dependency.",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/abapify/openadt/releases/download/v3.0.0/openadt-mcp-3.0.0-win-x64.zip",
-      "hash": "0f3056d6dc5f1d4c5e37b63e38adff588f392f3621eb36b75d0578976a59bc52"
+      "url": "https://github.com/abapify/openadt/releases/download/v3.0.1/openadt-mcp-3.0.1-win-x64.zip",
+      "hash": "17a1f23de6989c165ec0459e1de6a0662b1de794c5ba46b1580982560eae1d43"
     }
   },
-  "extract_dir": "openadt-mcp-3.0.0-win-x64",
+  "extract_dir": "openadt-mcp-3.0.1-win-x64",
   "bin": "openadt-mcp.exe",
   "suggest": {
     "JDK 21": "java/openjdk21",
